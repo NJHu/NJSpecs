@@ -20,7 +20,7 @@ s.source           = { :git => 'https://github.com/njhu/NJKit.git', :branch =>'m
 
 s.ios.deployment_target = '10.3'
 
-s.source_files = 'NJKit/Classes/**/*'
+#s.source_files = 'NJKit/Classes/**/*'
 #s.public_header_files = 'AFNetworking/AFNetworking.h'
 
 #二级目录
@@ -54,7 +54,7 @@ end
 #'NJKit' => ['NJKit/*.{bundle}', 'NJKit/*.{xcassets}']
 #}
 
-s.resource     = 'NJKit/**/*.{xcassets}'
+s.resources     = 'NJKit/**/*.{xcassets}'
 
 s.frameworks    = 'UIKit'
 s.dependency 'Masonry'
