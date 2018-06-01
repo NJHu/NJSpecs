@@ -20,46 +20,45 @@ s.source           = { :git => 'https://github.com/njhu/NJKit.git', :branch =>'m
 
 s.ios.deployment_target = '10.3'
 
-#s.source_files = 'NJKit/Classes/**/*'
+#s.source_files = 'NJKit/NJKit/**/*'
 #s.public_header_files = 'AFNetworking/AFNetworking.h'
 
 #二级目录
 s.subspec 'Category' do |ss|
-ss.source_files = 'NJKit/Classes/Category/*.{swift}'
-ss.frameworks      = 'UIKit'
+    ss.source_files = 'NJKit/Classes/Category/*.{swift}'
+    ss.frameworks      = 'UIKit'
 end
 
 s.subspec 'Network' do |ss|
-ss.source_files = 'NJKit/Classes/Network/*.{swift}'
-ss.dependency 'Alamofire'
-ss.frameworks      = 'UIKit'
+    ss.source_files = 'NJKit/Classes/Network/*.{swift}'
+    ss.dependency 'Alamofire'
 end
 
 s.subspec 'View' do |ss|
-ss.source_files = 'NJKit/Classes/View/*.{swift}'
-ss.frameworks      = 'UIKit'
-ss.dependency 'MJRefresh'
+    ss.source_files = 'NJKit/Classes/View/*.{swift}'
+    ss.frameworks      = 'UIKit'
+    ss.dependency 'MJRefresh'
 end
 
 s.subspec 'ViewController' do |ss|
-ss.source_files = 'NJKit/Classes/ViewController/*.{swift}'
-ss.frameworks      = 'UIKit'
-ss.dependency 'MJRefresh'
-ss.dependency 'NJKit/View'
+    ss.source_files = 'NJKit/Classes/ViewController/*.{swift}'
+    ss.frameworks      = 'UIKit'
+    ss.dependency 'MJRefresh'
+    ss.dependency 'NJKit/View'
 end
 
-s.subspec 'Xib' do |ss|
-ss.source_files = 'NJKit/Xib/*.{xib}'
-ss.frameworks      = 'UIKit'
-end
+#s.subspec 'Xib' do |ss|
+#    ss.source_files = 'NJKit/Xib/*.{xib}'
+#    ss.frameworks      = 'UIKit'
+#end
 #二级目录
 
 
 #s.resource_bundles = {
-#'NJKit' => ['NJKit/*.{bundle}']
+#'NJKit' => ['NJKit/*.{bundle}', 'NJKit/*.{xcassets}']
 #}
 
-s.resource     = 'NJKit/NJKitAssets.bundle'
+s.resource     = 'NJKit/NJKit.xcassets'
 
 s.frameworks    = 'UIKit'
 s.dependency 'Masonry'
