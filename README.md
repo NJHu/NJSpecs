@@ -1,2 +1,2 @@
-# NJSpecs
-个人仓库
+## NJKit 
+- https://github.com/NJHu/NJKit.git
