@@ -20,7 +20,7 @@ s.source           = { :git => 'https://github.com/njhu/NJKit.git', :branch =>'m
 
 s.ios.deployment_target = '10.3'
 
-#s.source_files = 'NJKit/NJKit/**/*'
+s.source_files = 'NJKit/Classes/**/*'
 #s.public_header_files = 'AFNetworking/AFNetworking.h'
 
 #二级目录
@@ -47,10 +47,6 @@ s.subspec 'ViewController' do |ss|
     ss.dependency 'NJKit/View'
 end
 
-#s.subspec 'Xib' do |ss|
-#    ss.source_files = 'NJKit/Xib/*.{xib}'
-#    ss.frameworks      = 'UIKit'
-#end
 #二级目录
 
 
@@ -58,7 +54,7 @@ end
 #'NJKit' => ['NJKit/*.{bundle}', 'NJKit/*.{xcassets}']
 #}
 
-s.resource     = 'NJKit/NJKit.xcassets'
+s.resource     = 'NJKit/**/*.{xcassets}'
 
 s.frameworks    = 'UIKit'
 s.dependency 'Masonry'
