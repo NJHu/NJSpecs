@@ -20,38 +20,36 @@ s.source           = { :git => 'https://github.com/njhu/NJKit.git', :branch =>'m
 
 s.ios.deployment_target = '10.3'
 
-#s.source_files = 'NJKit/Classes/**/*'
+# 调试开发打开注释
+s.source_files = 'NJKit/Classes/**/*'
 #s.public_header_files = 'AFNetworking/AFNetworking.h'
 
+# 上线打开注释
 #二级目录
-s.subspec 'Category' do |ss|
-    ss.source_files = 'NJKit/Classes/Category/*.{swift}'
-    ss.frameworks      = 'UIKit'
-end
-
-s.subspec 'Network' do |ss|
-    ss.source_files = 'NJKit/Classes/Network/*.{swift}'
-    ss.dependency 'Alamofire'
-end
-
-s.subspec 'View' do |ss|
-    ss.source_files = 'NJKit/Classes/View/*.{swift}'
-    ss.frameworks      = 'UIKit'
-    ss.dependency 'MJRefresh'
-end
-
-s.subspec 'ViewController' do |ss|
-    ss.source_files = 'NJKit/Classes/ViewController/*.{swift}'
-    ss.frameworks      = 'UIKit'
-    ss.dependency 'MJRefresh'
-    ss.dependency 'NJKit/View'
-end
+#s.subspec 'Category' do |ss|
+#    ss.source_files = 'NJKit/Classes/Category/*.{swift}'
+#end
+#
+#s.subspec 'Network' do |ss|
+#    ss.source_files = 'NJKit/Classes/Network/*.{swift}'
+#end
+#
+#s.subspec 'View' do |ss|
+#    ss.source_files = 'NJKit/Classes/View/*.{swift,xib}'
+#end
+#
+#s.subspec 'Controller' do |ss|
+#    ss.source_files = 'NJKit/Classes/Controller/*.{swift,xib}'
+#end
+#
+#s.subspec 'Tool' do |ss|
+#    ss.source_files = 'NJKit/Classes/Tool/*.{swift}'
+#end
 
 #二级目录
-
 
 #s.resource_bundles = {
-#'NJKit' => ['NJKit/*.{bundle}', 'NJKit/*.{xcassets}']
+#'NJKit' => ['NJKit/*.{plist}']
 #}
 
 s.resources     = 'NJKit/**/*.{xcassets}'
@@ -59,5 +57,7 @@ s.resources     = 'NJKit/**/*.{xcassets}'
 s.frameworks    = 'UIKit'
 s.dependency 'Masonry'
 s.dependency 'SDWebImage'
+s.dependency 'MJRefresh'
+s.dependency 'Alamofire'
 
 end
