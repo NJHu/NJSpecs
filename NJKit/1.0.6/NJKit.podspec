@@ -48,11 +48,11 @@ s.source_files = 'NJKit/Classes/**/*'
 
 #二级目录
 
-#s.resource_bundles = {
-#'NJKit' => ['NJKit/*.{plist}']
-#}
+s.resource_bundles = {
+'NJKit' => ['NJKit/Assets/**/*.{xcassets,plist,webp}']
+}
 
-s.resources     = 'NJKit/**/*.{xcassets}'
+#s.resources     = 'NJKit/**/*.{xcassets}'
 
 s.frameworks    = 'UIKit'
 s.dependency 'Masonry'
