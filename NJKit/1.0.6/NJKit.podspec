@@ -15,7 +15,7 @@ s.homepage         = 'https://github.com/njhu/NJKit'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'njhu' => '64hp@163.com' }
 #s.source           = { :git => 'https://github.com/njhu/NJKit.git', :tag => s.version.to_s }
-s.source           = { :git => 'https://github.com/njhu/NJKit.git', :branch =>'master' }
+s.source           = { :git => 'https://github.com/njhu/NJKit.git', :branch => 'master' }
 
 
 s.ios.deployment_target = '10.3'
