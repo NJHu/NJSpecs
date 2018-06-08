@@ -30,4 +30,5 @@ end
 
   - [NJKit](https://github.com/NJHu/NJKit.git)
   - [DYTrends](https://github.com/NJHu/DYTrends.git)
+  - [NJMediator](https://github.com/NJHu/NJMediator.git)
   - [NJMediator_DYTrends](https://github.com/NJHu/NJMediator_DYTrends.git)
