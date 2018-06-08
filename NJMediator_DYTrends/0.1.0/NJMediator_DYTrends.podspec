@@ -25,5 +25,5 @@ NJMediator_DYTrends, NJMediator_DYTrends, NJMediator_DYTrends, NJMediator_DYTren
    #  'NJMediator_DYTrends' => ['NJMediator_DYTrends/Assets/**/*.{xcassets,plist,webp}']
    #}
 
-  s.dependency 'NJKit'
+  s.dependency 'NJMediator'
 end
