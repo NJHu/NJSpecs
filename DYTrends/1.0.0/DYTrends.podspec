@@ -49,10 +49,10 @@ s.source_files = 'DYTrends/Classes/**/*'
 #二级目录
 
 s.resource_bundles = {
-'DYTrends' => ['DYTrends/Assets/**/*.{plist,webp,png}']
+'DYTrends' => ['DYTrends/Assets/**/*.{plist,webp,png,xcassets}']
 }
 
-s.resources     = 'DYTrends/**/*.{xcassets}'
+#s.resources     = 'DYTrends/**/*.{xcassets}'
 
 s.dependency 'NJKit'
 s.frameworks    = 'UIKit'
