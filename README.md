@@ -1,5 +1,5 @@
 
-# 个人组件仓库
+# 组件仓库
 
 
 - 1, 添加仓库到本地
@@ -32,3 +32,5 @@ end
   - [DYTrends](https://github.com/NJHu/DYTrends.git)
   - [NJMediator](https://github.com/NJHu/NJMediator.git)
   - [NJMediator_DYTrends](https://github.com/NJHu/NJMediator_DYTrends.git)
+  - [DYLiveShow](https://github.com/NJHu/DYLiveShow.git)
+  - [NJMediator_DYLiveShow](https://github.com/NJHu/NJMediator_DYLiveShow.git)
