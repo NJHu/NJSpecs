@@ -49,10 +49,10 @@ s.source_files = 'DYLiveShow/Classes/**/*'
 #二级目录
 
 s.resource_bundles = {
-'DYLiveShow' => ['DYLiveShow/Assets/**/*.{plist,webp,png,xcassets}']
+'DYLiveShow' => ['DYLiveShow/Assets/**/*.{plist,webp,png}']
 }
 
-#s.resources     = 'DYLiveShow/**/*.{xcassets}'
+s.resources     = 'DYLiveShow/**/*.{xcassets}'
 
 s.dependency 'NJKit'
 s.frameworks   = 'UIKit'
