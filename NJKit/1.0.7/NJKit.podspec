@@ -55,8 +55,7 @@ s.resource_bundles = {
 s.resources     = 'NJKit/**/*.{xcassets}'
 
 s.frameworks    = 'UIKit'
-s.dependency 'Masonry'
-s.dependency 'SDWebImage'
+s.dependency 'SnapKit'
 s.dependency 'MJRefresh'
 s.dependency 'Alamofire'
 
