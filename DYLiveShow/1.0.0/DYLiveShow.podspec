@@ -54,11 +54,9 @@ s.resource_bundles = {
 
 s.resources     = 'DYLiveShow/**/*.{xcassets}'
 
-s.dependency 'NJKit'
 s.frameworks   = 'UIKit'
-s.dependency 'Masonry'
-s.dependency 'SDWebImage'
-s.dependency 'MJRefresh'
-s.dependency 'Alamofire'
+s.dependency 'NJKit'
+s.dependency 'NJDYSearchBarView'
+
 
 end
