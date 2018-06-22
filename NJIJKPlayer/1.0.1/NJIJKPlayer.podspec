@@ -19,7 +19,7 @@ s.source           = { :git => 'https://github.com/njhu/NJIJKPlayer.git', :branc
 
 
 s.ios.deployment_target = '10.3'
-#s.static_framework = true
+s.static_framework = true
 s.requires_arc = true
 
 # 调试开发打开注释
