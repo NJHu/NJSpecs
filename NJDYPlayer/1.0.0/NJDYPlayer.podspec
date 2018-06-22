@@ -18,6 +18,7 @@ DESC
 
 s.ios.deployment_target = '10.3'
 s.requires_arc = true
+s.static_framework = true
 
 # 调试开发打开注释
 s.source_files = 'NJDYPlayer/Classes/**/*'
@@ -55,5 +56,6 @@ s.resources     = 'NJDYPlayer/**/*.{xcassets}'
 
 s.dependency 'NJKit'
 s.frameworks   = 'UIKit'
+s.dependency 'NJIJKPlayer'
 
 end
