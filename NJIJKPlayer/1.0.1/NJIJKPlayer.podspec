@@ -60,7 +60,7 @@ s.ios.deployment_target = '10.3'
 s.vendored_frameworks = 'IJKMediaFramework.framework'
 
 s.frameworks  = "AudioToolbox", "AVFoundation", "CoreGraphics", "CoreMedia", "CoreVideo", "MobileCoreServices", "OpenGLES", "QuartzCore", "VideoToolbox", "Foundation", "UIKit", "MediaPlayer"
-s.libraries   = "bz2", "z", "stdc++"
+#s.libraries   = "bz2", "z", "stdc++"
 s.requires_arc = true
 
 end
