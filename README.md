@@ -11,7 +11,7 @@ pod repo add NJSpecs https://github.com/NJHu/NJSpecs.git
 ```
 
 
-- 2, podfile 引用source
+- 2, Podfile 引用source
 
 ```
 source 'https://github.com/NJHu/NJSpecs.git' # NJ 私有源
@@ -34,3 +34,6 @@ end
   - [NJMediator_DYTrends](https://github.com/NJHu/NJMediator_DYTrends.git)
   - [DYLiveShow](https://github.com/NJHu/DYLiveShow.git)
   - [NJMediator_DYLiveShow](https://github.com/NJHu/NJMediator_DYLiveShow.git)
+  - [NJDYSearchBarView](https://github.com/NJHu/NJDYSearchBarView.git)
+  - [NJIJKPlayer](https://github.com/NJHu/NJIJKPlayer.git)
+  - [NJDYPlayer](https://github.com/NJHu/NJDYPlayer.git)
