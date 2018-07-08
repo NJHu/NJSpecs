@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.author           = { 'njhu' => '64hp@163.com' }
     s.social_media_url = 'http://weibo.com/njhu'
     #s.source           = { :git => 'https://github.com/njhu/NJDYSearchBarView.git', :tag => s.version.to_s }
-    s.source           = { :git => 'https://github.com/njhu/NJDYSearchBarView.git', :branch =>'master' }
+    s.source           = { :git => 'https://github.com/njhu/NJDYSearchBarView.git', :branch => 'master' }
     
     s.description      = <<-DESC
     NJDYSearchBarView, NJDYSearchBarView, NJDYSearchBarView, NJDYSearchBarView, NJDYSearchBarView, NJDYSearchBarView, NJDYSearchBarView
