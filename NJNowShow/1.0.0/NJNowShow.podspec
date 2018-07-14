@@ -16,6 +16,7 @@ NJNowShow, NJNowShow, NJNowShow, NJNowShow, NJNowShow, NJNowShow, NJNowShow
 DESC
 
 s.ios.deployment_target = '10.3'
+s.static_framework = true
 
 s.source_files = 'NJNowShow/Classes/**/*'
 
@@ -27,5 +28,6 @@ s.resources     = 'NJNowShow/**/*.{xcassets}'
 
 s.frameworks   = 'UIKit'
 s.dependency 'NJKit'
+s.dependency 'NJNowShowPlay'
 
 end

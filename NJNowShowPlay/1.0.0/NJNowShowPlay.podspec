@@ -19,7 +19,6 @@ s.ios.deployment_target = '10.3'
 s.requires_arc = true
 s.static_framework = true
 
-
 s.source_files = 'NJNowShowPlay/Classes/**/*'
 
 s.resource_bundles = {
