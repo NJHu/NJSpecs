@@ -19,6 +19,7 @@ s.source           = { :git => 'https://github.com/njhu/DYLiveShow.git', :branch
 
 
 s.ios.deployment_target = '10.3'
+s.static_framework = true
 
 # 调试开发打开注释
 s.source_files = 'DYLiveShow/Classes/**/*'
@@ -57,6 +58,6 @@ s.resources     = 'DYLiveShow/**/*.{xcassets}'
 s.frameworks   = 'UIKit'
 s.dependency 'NJKit'
 s.dependency 'NJDYSearchBarView'
-
+s.dependency 'DYLiveRoom'
 
 end
