@@ -22,7 +22,7 @@ s.ios.deployment_target = '10.3'
 s.static_framework = true
 
 # 调试开发打开注释
-s.source_files = 'DYLiveShow/Classes/**/*'
+s.source_files = 'DYLiveShow/Classes/**/*.{swift}'
 
 # 上线打开注释
 #二级目录
@@ -50,10 +50,10 @@ s.source_files = 'DYLiveShow/Classes/**/*'
 #二级目录
 
 s.resource_bundles = {
-'DYLiveShow' => ['DYLiveShow/Assets/**/*.{plist,webp,png}']
+'DYLiveShow' => ['DYLiveShow/Assets/**/*.{plist,webp,png,xcassets}', 'DYLiveShow/Classes/**/*.{xib}']
 }
 
-s.resources     = 'DYLiveShow/**/*.{xcassets}'
+#s.resources     = 'DYLiveShow/**/*.{xcassets}'
 
 s.frameworks   = 'UIKit'
 s.dependency 'NJKit'
