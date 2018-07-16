@@ -10,18 +10,18 @@ s.description      = <<-DESC
 DYTrends, DYTrends, DYTrends, DYTrends, DYTrends, DYTrends, DYTrends
 DESC
 
-s.homepage         = 'https://github.com/njhu/DYTrends'
+s.homepage         = 'https://github.com/NJHu/DYTrends'
 
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
-s.author           = { 'njhu' => '64hp@163.com' }
-#s.source           = { :git => 'https://github.com/njhu/DYTrends.git', :tag => s.version.to_s }
-s.source           = { :git => 'https://github.com/njhu/DYTrends.git', :branch => 'master' }
+s.author           = { 'NJHu' => '64hp@163.com' }
+#s.source           = { :git => 'https://github.com/NJHu/DYTrends.git', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/NJHu/DYTrends.git', :branch =>'master' }
 
 
 s.ios.deployment_target = '10.3'
 
 # 调试开发打开注释
-s.source_files = 'DYTrends/Classes/**/*'
+s.source_files = 'DYTrends/Classes/**/*.{swift}'
 
 # 上线打开注释
 #二级目录
@@ -49,10 +49,10 @@ s.source_files = 'DYTrends/Classes/**/*'
 #二级目录
 
 s.resource_bundles = {
-'DYTrends' => ['DYTrends/Assets/**/*.{plist,webp,png}']
+'DYTrends' => ['DYTrends/Assets/**/*.{plist,webp,png,xcassets}', 'DYTrends/Classes/**/*.{xib}']
 }
 
-s.resources     = 'DYTrends/**/*.{xcassets}'
+#s.resources     = 'DYTrends/**/*.{xcassets}'
 
 s.dependency 'NJKit'
 s.frameworks    = 'UIKit'
