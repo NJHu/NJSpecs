@@ -10,12 +10,12 @@ s.description      = <<-DESC
 NJMediator_DYLiveShow, NJMediator_DYLiveShow, NJMediator_DYLiveShow, NJMediator_DYLiveShow, NJMediator_DYLiveShow
 DESC
 
-s.homepage         = 'https://github.com/NJHu/NJMediator_DYLiveShow'
+s.homepage         = 'https://github.com/njhu/NJMediator_DYLiveShow'
 
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'njhu' => '64hp@163.com' }
-#s.source           = { :git => 'https://github.com/NJHu/NJMediator_DYLiveShow.git', :tag => s.version.to_s }
-s.source           = { :git => 'https://github.com/NJHu/NJMediator_DYLiveShow.git', :branch => 'master' }
+#s.source           = { :git => 'https://github.com/njhu/NJMediator_DYLiveShow.git', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/njhu/NJMediator_DYLiveShow.git', :branch => 'master' }
 
 s.ios.deployment_target = '10.3'
 

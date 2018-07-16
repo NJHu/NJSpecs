@@ -10,12 +10,12 @@ s.description      = <<-DESC
 DYTrends, DYTrends, DYTrends, DYTrends, DYTrends, DYTrends, DYTrends
 DESC
 
-s.homepage         = 'https://github.com/NJHu/DYTrends'
+s.homepage         = 'https://github.com/njhu/DYTrends'
 
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'njhu' => '64hp@163.com' }
-#s.source           = { :git => 'https://github.com/NJHu/DYTrends.git', :tag => s.version.to_s }
-s.source           = { :git => 'https://github.com/NJHu/DYTrends.git', :branch => 'master' }
+#s.source           = { :git => 'https://github.com/njhu/DYTrends.git', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/njhu/DYTrends.git', :branch => 'master' }
 
 
 s.ios.deployment_target = '10.3'

@@ -10,12 +10,12 @@ s.description      = <<-DESC
 DYLiveShow, DYLiveShow, DYLiveShow, DYLiveShow, DYLiveShow, DYLiveShow, DYLiveShow
 DESC
 
-s.homepage         = 'https://github.com/NJHu/DYLiveShow'
+s.homepage         = 'https://github.com/njhu/DYLiveShow'
 
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'njhu' => '64hp@163.com' }
-#s.source           = { :git => 'https://github.com/NJHu/DYLiveShow.git', :tag => s.version.to_s }
-s.source           = { :git => 'https://github.com/NJHu/DYLiveShow.git', :branch => 'master' }
+#s.source           = { :git => 'https://github.com/njhu/DYLiveShow.git', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/njhu/DYLiveShow.git', :branch => 'master' }
 
 
 s.ios.deployment_target = '10.3'

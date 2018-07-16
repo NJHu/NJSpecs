@@ -10,12 +10,12 @@ Pod::Spec.new do |s|
 NJMediator_DYTrends, NJMediator_DYTrends, NJMediator_DYTrends, NJMediator_DYTrends, NJMediator_DYTrends
                        DESC
 
-  s.homepage         = 'https://github.com/NJHu/NJMediator_DYTrends'
+  s.homepage         = 'https://github.com/njhu/NJMediator_DYTrends'
 
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'njhu' => '64hp@163.com' }
-  #s.source           = { :git => 'https://github.com/NJHu/NJMediator_DYTrends.git', :tag => s.version.to_s }
-  s.source           = { :git => 'https://github.com/NJHu/NJMediator_DYTrends.git', :branch => 'master' }
+  #s.source           = { :git => 'https://github.com/njhu/NJMediator_DYTrends.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/njhu/NJMediator_DYTrends.git', :branch => 'master' }
 
   s.ios.deployment_target = '10.3'
 

@@ -4,12 +4,12 @@ Pod::Spec.new do |s|
 s.name             = 'NJNowShowPlay'
 s.version          = '1.0.0'
 s.summary          = 'NJNowShowPlay, NJNowShowPlay'
-s.homepage         = 'https://github.com/NJHu/NJNowShowPlay'
+s.homepage         = 'https://github.com/njhu/NJNowShowPlay'
 s.author           = { 'njhu' => '64hp@163.com' }
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 
-#s.source           = { :git => 'https://github.com/NJHu/NJNowShowPlay.git', :tag => s.version.to_s }
-s.source           = { :git => 'https://github.com/NJHu/NJNowShowPlay.git', :branch => 'master' }
+#s.source           = { :git => 'https://github.com/njhu/NJNowShowPlay.git', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/njhu/NJNowShowPlay.git', :branch => 'master' }
 
 s.description      = <<-DESC
 NJNowShowPlay, NJNowShowPlay, NJNowShowPlay, NJNowShowPlay, NJNowShowPlay, NJNowShowPlay, NJNowShowPlay
