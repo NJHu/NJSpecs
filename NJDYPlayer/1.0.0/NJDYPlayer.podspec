@@ -4,12 +4,12 @@ Pod::Spec.new do |s|
 s.name             = 'NJDYPlayer'
 s.version          = '1.0.0'
 s.summary          = 'NJDYPlayer, NJDYPlayer'
-s.homepage         = 'https://github.com/njhu/NJDYPlayer'
+s.homepage         = 'https://github.com/NJHu/NJDYPlayer'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'njhu' => '64hp@163.com' }
 s.social_media_url = 'http://weibo.com/njhu'
-#s.source           = { :git => 'https://github.com/njhu/NJDYPlayer.git', :tag => s.version.to_s }
-s.source           = { :git => 'https://github.com/njhu/NJDYPlayer.git', :branch =>'master' }
+#s.source           = { :git => 'https://github.com/NJHu/NJDYPlayer.git', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/NJHu/NJDYPlayer.git', :branch => 'master' }
 
 s.description      = <<-DESC
 NJDYPlayer, NJDYPlayer, NJDYPlayer, NJDYPlayer, NJDYPlayer, NJDYPlayer, NJDYPlayer
