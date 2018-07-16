@@ -10,20 +10,20 @@ Pod::Spec.new do |s|
 NJMediator_DYTrends, NJMediator_DYTrends, NJMediator_DYTrends, NJMediator_DYTrends, NJMediator_DYTrends
                        DESC
 
-  s.homepage         = 'https://github.com/njhu/NJMediator_DYTrends'
+  s.homepage         = 'https://github.com/NJHu/NJMediator_DYTrends'
 
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'njhu' => '64hp@163.com' }
-  #s.source           = { :git => 'https://github.com/njhu/NJMediator_DYTrends.git', :tag => s.version.to_s }
-  s.source           = { :git => 'https://github.com/njhu/NJMediator_DYTrends.git', :branch => 'master' }
+  s.author           = { 'NJHu' => '64hp@163.com' }
+  ##s.source           = { :git => 'https://github.com/NJHu/NJMediator_DYTrends.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/NJHu/NJMediator_DYTrends.git', :branch => 'master' }
 
   s.ios.deployment_target = '10.3'
 
   s.source_files = 'NJMediator_DYTrends/Classes/**/*'
   
-   #s.resource_bundles = {
-   #  'NJMediator_DYTrends' => ['NJMediator_DYTrends/Assets/**/*.{xcassets,plist,webp}']
-   #}
+   ##s.resource_bundles = {
+   ##  'NJMediator_DYTrends' => ['NJMediator_DYTrends/Assets/**/*.{xcassets,plist,webp}']
+   ##}
 
   s.dependency 'NJMediator'
 end
