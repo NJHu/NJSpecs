@@ -8,7 +8,7 @@ s.homepage         = 'https://github.com/NJHu/NJNowShowPlay'
 s.author           = { 'NJHu' => '64hp@163.com' }
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 
-########s.source           = { :git => 'https://github.com/NJHu/NJNowShowPlay.git', :tag => s.version.to_s }
+################s.source           = { :git => 'https://github.com/NJHu/NJNowShowPlay.git', :tag => s.version.to_s }
 s.source           = { :git => 'https://github.com/NJHu/NJNowShowPlay.git', :branch => 'master' }
 
 s.description      = <<-DESC
