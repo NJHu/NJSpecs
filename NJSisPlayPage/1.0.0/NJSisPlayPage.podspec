@@ -4,11 +4,11 @@ Pod::Spec.new do |s|
 s.name             = 'NJSisPlayPage'
 s.version          = '1.0.0'
 s.summary          = 'NJSisPlayPage, NJSisPlayPage'
-s.homepage         = 'https://github.com/njhu/NJSisPlayPage'
-s.author           = { 'njhu' => '64hp@163.com' }
+s.homepage         = 'https://github.com/NJHu/NJSisPlayPage'
+s.author           = { 'NJHu' => '64hp@163.com' }
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 
-#s.source           = { :git => 'https://github.com/NJHu/NJSisPlayPage.git', :tag => s.version.to_s }
+##s.source           = { :git => 'https://github.com/NJHu/NJSisPlayPage.git', :tag => s.version.to_s }
 s.source           = { :git => 'https://github.com/NJHu/NJSisPlayPage.git', :branch => 'master' }
 
 s.description      = <<-DESC

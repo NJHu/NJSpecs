@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
     s.homepage         = 'https://github.com/NJHu/NJMediator_DYLiveRoom'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'NJHu' => '64hp@163.com' }
-    ########s.source           = { :git => 'https://github.com/NJHu/NJMediator_DYLiveRoom.git', :tag => s.version.to_s }
+    ################s.source           = { :git => 'https://github.com/NJHu/NJMediator_DYLiveRoom.git', :tag => s.version.to_s }
     s.source           = { :git => 'https://github.com/NJHu/NJMediator_DYLiveRoom.git', :branch => 'master' }
     
     

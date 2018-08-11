@@ -14,16 +14,16 @@ NJMediator, NJMediator, NJMediator, NJMediator, NJMediator
 
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'NJHu' => '64hp@163.com' }
-  ################s.source           = { :git => 'https://github.com/NJHu/NJMediator.git', :tag => s.version.to_s }
+  ################################s.source           = { :git => 'https://github.com/NJHu/NJMediator.git', :tag => s.version.to_s }
   s.source           = { :git => 'https://github.com/NJHu/NJMediator.git', :branch => 'master' }
 
   s.ios.deployment_target = '10.3'
 
   s.source_files = 'NJMediator/Classes/**/*'
   
-   ################s.resource_bundles = {
-   ################  'NJMediator' => ['NJMediator/Assets/**/*.{xcassets,plist,webp}']
-   ################}
+   ################################s.resource_bundles = {
+   ################################  'NJMediator' => ['NJMediator/Assets/**/*.{xcassets,plist,webp}']
+   ################################}
    
   s.frameworks    = 'Foundation'
 end
