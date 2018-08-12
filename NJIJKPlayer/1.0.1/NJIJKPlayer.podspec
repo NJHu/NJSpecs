@@ -14,7 +14,7 @@ s.homepage         = 'https://github.com/NJHu/NJIJKPlayer'
 
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'NJHu' => '64hp@163.com' }
-################################s.source           = { :git => 'https://github.com/NJHu/NJIJKPlayer.git', :tag => s.version.to_s }
+#s.source           = { :git => 'https://github.com/NJHu/NJIJKPlayer.git', :tag => s.version.to_s }
 s.source           = { :git => 'https://github.com/NJHu/NJIJKPlayer.git', :branch => 'master' }
 
 
@@ -22,42 +22,42 @@ s.ios.deployment_target = '10.3'
 s.static_framework = true
 s.requires_arc = true
 
-################################ 调试开发打开注释
-################################s.source_files = 'NJIJKPlayer/Classes/**/*'
+# 调试开发打开注释
+#s.source_files = 'NJIJKPlayer/Classes/**/*'
 
-################################ 上线打开注释
-################################二级目录
+# 上线打开注释
+#二级目录
 
-################################s.subspec 'Controller' do |ss|
-################################    ss.source_files = 'NJIJKPlayer/Classes/Controller/*.{swift,xib}'
-################################end
-################################
-################################s.subspec 'Model' do |ss|
-################################    ss.source_files = 'NJIJKPlayer/Classes/Model/*.{swift}'
-################################end
-################################
-################################s.subspec 'View' do |ss|
-################################    ss.source_files = 'NJIJKPlayer/Classes/View/*.{swift,xib}'
-################################end
-################################
-################################s.subspec 'ViewModel' do |ss|
-################################    ss.source_files = 'NJIJKPlayer/Classes/ViewModel/*.{swift}'
-################################end
-################################
-################################s.subspec 'Other' do |ss|
-################################    ss.source_files = 'NJIJKPlayer/Classes/Other/*.{swift}'
-################################end
+#s.subspec 'Controller' do |ss|
+#    ss.source_files = 'NJIJKPlayer/Classes/Controller/*.{swift,xib}'
+#end
+#
+#s.subspec 'Model' do |ss|
+#    ss.source_files = 'NJIJKPlayer/Classes/Model/*.{swift}'
+#end
+#
+#s.subspec 'View' do |ss|
+#    ss.source_files = 'NJIJKPlayer/Classes/View/*.{swift,xib}'
+#end
+#
+#s.subspec 'ViewModel' do |ss|
+#    ss.source_files = 'NJIJKPlayer/Classes/ViewModel/*.{swift}'
+#end
+#
+#s.subspec 'Other' do |ss|
+#    ss.source_files = 'NJIJKPlayer/Classes/Other/*.{swift}'
+#end
 
-################################二级目录
+#二级目录
 
-################################s.resource_bundles = {
-################################'NJIJKPlayer' => ['NJIJKPlayer/Assets/**/*.{plist,webp,png}']
-################################}
+#s.resource_bundles = {
+#'NJIJKPlayer' => ['NJIJKPlayer/Assets/**/*.{plist,webp,png}']
+#}
 
-################################s.resources     = 'NJIJKPlayer/**/*.{xcassets}'
+#s.resources     = 'NJIJKPlayer/**/*.{xcassets}'
 
-################################s.frameworks   = 'UIKit'
-################################s.dependency 'NJKit'
+#s.frameworks   = 'UIKit'
+#s.dependency 'NJKit'
 
 s.vendored_frameworks = 'IJKMediaFramework.framework'
 
