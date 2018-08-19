@@ -19,10 +19,10 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '10.3'
     s.requires_arc = true
     
-    s.source_files = 'NJDYSearchBarView/Classes/**/*'
+    s.source_files = 'NJDYSearchBarView/Classes/**/*.{swift}'
 
     s.resource_bundles = {
-        'NJDYSearchBarView' => ['NJDYSearchBarView/Assets/**/*.{plist,webp,png,xcassets}']
+        'NJDYSearchBarView' => ['NJDYSearchBarView/Assets/**/*.{plist,webp,png,xcassets}', 'NJDYSearchBarView/Classes/**/*.{xib}']
     }
     
     s.frameworks   = 'UIKit'
