@@ -4,8 +4,8 @@ Pod::Spec.new do |s|
 s.name             = 'DYLiveRoom'
 s.version          = '1.0.0'
 s.summary          = 'DYLiveRoom, DYLiveRoom'
-s.homepage         = 'https://github.com/NJHu/DYLiveRoom'
-s.author           = { 'NJHu' => '64hp@163.com' }
+s.homepage         = 'https://github.com/njhu/DYLiveRoom'
+s.author           = { 'njhu' => '64hp@163.com' }
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 
 #s.source           = { :git => 'https://github.com/NJHu/DYLiveRoom.git', :tag => s.version.to_s }
@@ -22,10 +22,8 @@ s.static_framework = true
 s.source_files = 'DYLiveRoom/Classes/**/*'
 
 s.resource_bundles = {
-'DYLiveRoom' => ['DYLiveRoom/Assets/**/*.{plist,webp,png}']
+'DYLiveRoom' => ['DYLiveRoom/Assets/**/*.{plist,webp,png,xcassets}']
 }
-
-s.resources     = 'DYLiveRoom/**/*.{xcassets}'
 
 s.frameworks   = 'UIKit'
 s.dependency 'NJKit'

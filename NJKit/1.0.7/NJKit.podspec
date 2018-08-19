@@ -10,12 +10,12 @@ s.description      = <<-DESC
 开发工具, 控制器, UI, Network, Tools, Extensions
 DESC
 
-s.homepage         = 'https://github.com/NJHu/NJKit'
+s.homepage         = 'https://github.com/njhu/NJKit'
 
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
-s.author           = { 'NJHu' => '64hp@163.com' }
-#s.source           = { :git => 'https://github.com/NJHu/NJKit.git', :tag => s.version.to_s }
-s.source           = { :git => 'https://github.com/NJHu/NJKit.git', :branch => 'master' }
+s.author           = { 'njhu' => '64hp@163.com' }
+#s.source           = { :git => 'https://github.com/njhu/NJKit.git', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/njhu/NJKit.git', :branch => 'master' }
 
 
 s.ios.deployment_target = '10.3'
@@ -49,10 +49,8 @@ s.source_files = 'NJKit/Classes/**/*'
 #二级目录
 
 s.resource_bundles = {
-'NJKit' => ['NJKit/Assets/**/*.{plist,webp,png}']
+'NJKit' => ['NJKit/Assets/**/*.{plist,webp,png,xcassets}']
 }
-
-s.resources     = 'NJKit/**/*.{xcassets}'
 
 s.frameworks    = 'UIKit'
 s.dependency 'SnapKit'
