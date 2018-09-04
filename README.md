@@ -1,6 +1,6 @@
 
 # 组件仓库
-### 组件项目[swiftProject](https://github.com/NJHu/swiftProject.git): https://github.com/NJHu/swiftProject.git
+### 组件项目 [swiftProject](https://github.com/NJHu/swiftProject.git) 案例
 
 - 1, 添加仓库到本地
 
