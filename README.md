@@ -50,3 +50,12 @@ end
 |18|[NJMediator_DYTrends](https://github.com/NJHu/NJMediator_DYTrends.git)|个人偏好界面中间件|[NJMediator](https://github.com/NJHu/NJMediator.git)|
 |19|[NJFAQ](https://github.com/NJHu/NJFAQ.git)|常见问题解答|[NJKit](https://github.com/NJHu/NJKit.git)|
 |20|[NJMediator_NJFAQ](https://github.com/NJHu/NJMediator_NJFAQ.git)|常见问题解答中间件|[NJMediator](https://github.com/NJHu/NJMediator.git)|
+
+### TeachersHelper项目组件列表和依赖关系
+
+|编号|组件|简介|依赖|
+|:---|:---|:---|:---|
+|0|[NJKit](https://github.com/NJHu/NJKit.git)|基类和工具|SnapKit, MJRefresh, Alamofire, SwiftyJSON, AlamofireImage|
+|1|[NJMediator](https://github.com/NJHu/NJMediator.git)|中间件: Target-Action||
+|19|[NJTeachersHelerList](https://github.com/NJHu/NJTeachersHelerList.git)|课程列表|[NJKit](https://github.com/NJHu/NJKit.git)|
+|20|[NJMediator_NJTeachersHelerList](https://github.com/NJHu/NJMediator_NJTeachersHelerList.git)|课程列表中间件|[NJMediator](https://github.com/NJHu/NJMediator.git)|
